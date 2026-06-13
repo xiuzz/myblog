@@ -4,8 +4,8 @@ navname: Xiuzz's Blog
 # navigatior items
 nav:
   Posts: /archives
-  Categories: /category
-  Tags: /tag
+  Categories: /categories
+  Tags: /tags
   About: /about
 
 # favicon
