@@ -1,7 +1,7 @@
 ---
 title: Linux UDP 协议栈源码解析
 date: 2026-06-13
-categories: [网络]
+categories: [network]
 tags: [UDP, Linux, 网络协议栈, 内核]
 ---
 

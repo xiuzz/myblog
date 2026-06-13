@@ -1,5 +1,8 @@
 ---
 title: Hello World
+date: 2026-06-13
+categories: [daily]
+tags: [博客]
 ---
 重启博客计划，现在ai部署太方便了
 
