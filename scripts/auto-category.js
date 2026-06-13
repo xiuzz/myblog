@@ -1,11 +1,18 @@
 // Auto-categorize posts based on content and tags before generation.
-// Rules: network > daily > algo > kernel > other
+// Rules: network > distributed > daily > algo > kernel > other
 
 const RULES = [
   {
     cat: 'network',
     keywords: ['网络', 'TCP', 'UDP', 'HTTP', 'DNS', 'TLS', 'SSL', 'socket',
-               'IP', 'QUIC', 'WebSocket', 'REST', 'API', 'grpc', 'proxy'],
+               'IP', 'QUIC', 'WebSocket', 'REST', 'API', 'grpc', 'gRPC',
+               'proxy', 'DDS', 'MQTT', 'AMQP', 'XMPP', 'CoAP', 'RPC',
+               '中间件', '消息队列', '负载均衡', 'CDN', 'SDN', 'NFV'],
+  },
+  {
+    cat: 'distributed',
+    keywords: ['分布式', '共识', 'Paxos', 'Raft', 'ZAB', 'CAP', 'BASE',
+               '一致性', '复制', '分片', '微服务'],
   },
   {
     cat: 'daily',
