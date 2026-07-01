@@ -1,5 +1,5 @@
 // Auto-categorize posts based on content and tags before generation.
-// Rules: network > distributed > daily > algo > kernel > other
+// Rules: network > distributed > ai > daily > algo > kernel > other
 
 const RULES = [
   {
@@ -13,6 +13,13 @@ const RULES = [
     cat: 'distributed',
     keywords: ['分布式', '共识', 'Paxos', 'Raft', 'ZAB', 'CAP', 'BASE',
                '一致性', '复制', '分片', '微服务'],
+  },
+  {
+    cat: 'ai',
+    keywords: ['AI', 'Agent', 'LLM', 'GPT', 'Claude', 'Hermes', 'OpenAI',
+               '机器学习', '深度学习', '模型', 'token', 'RAG', 'prompt',
+               'embedding', 'transformer', '大模型', '推理', '训练',
+               'obsidian', '知识库', '记忆', 'skill'],
   },
   {
     cat: 'daily',
