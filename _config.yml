@@ -86,6 +86,11 @@ ignore:
 # Extensions
 theme: Chic
 
+# Renderer
+marked:
+  prependRoot: true
+  postAsset: true
+
 # Deployment
 deploy:
   type: git

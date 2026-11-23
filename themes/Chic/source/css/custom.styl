@@ -2,3 +2,19 @@
 // Custom style
 // ==============================
 //  Also You can override the variables in variable.styl to customize the style
+
+// 文章内图片：自适应宽度、居中，图注（单独的斜体段落）居中显示
+.post-content
+  img
+    display block
+    max-width 100%
+    height auto
+    margin 1.6rem auto .4rem
+    border-radius 6px
+
+  p > em:only-child
+    display block
+    text-align center
+    color #8a919c
+    font-size .9rem
+    margin .2rem 0 1.8rem
